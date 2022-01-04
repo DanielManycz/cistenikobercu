@@ -1,0 +1,40 @@
+.feature-box {
+font-size: 3rem;
+color: $color-white;
+
+}
+
+.feature-center {
+text-align: center;
+width: 95%;
+margin: 1rem auto 1rem auto;
+border-collapse: collapse;
+border: .2rem solid $color-white;
+color: $color-white;
+
+}
+
+.feature-center tr th {
+    border-bottom:.1rem solid $color-white;
+    border-left:.1rem solid $color-white;
+    border-right:.2rem solid $color-white;
+    padding:.5rem .3rem .5rem .3rem;
+    }
+
+.feature-h4 {
+    text-align: center;
+    color: $color-white;
+    padding: 5rem;
+    text-transform: uppercase;
+}
+
+.feature-center tr:hover th {
+    background-color: orange;
+}
+
+h4:hover {
+    text-shadow: .5rem 1rem 2rem rgba($color-black, 10);
+}
+    
+
+
